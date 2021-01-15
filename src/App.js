@@ -1,3 +1,7 @@
+// ATTENTION INSTALL NODE MODULES BEFORE RUN!
+//       (ノಠ益ಠ)ノ彡┻━┻
+//     (ノಠ益ಠ)ノ彡┻━┻
+//   (ノಠ益ಠ)ノ彡┻━┻
 import React, { Component } from 'react'
 
 import './App.css';
