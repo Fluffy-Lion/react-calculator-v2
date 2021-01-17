@@ -28,17 +28,23 @@ class App extends Component {
   render() {
   return (
     <div className="App">
-      <h1>appjs</h1>
-      <h2>{this.state.total}</h2>
-      {this.state.buttons.map((button, index) => {
-        return ( 
-            <Button 
-            value={button} 
-            key={index}
-            clickHandler={this.clickHandler}
-            /> 
-        )
-      })}
+      <h1>react-calculator</h1>
+        <div className="calcWrapper">
+          <div className="calcScreen">
+            <h2>{this.state.total}</h2>
+          </div>
+          <div className="buttonWrapper">
+          {this.state.buttons.map((button, index) => {
+            return ( 
+                <Button 
+                value={button} 
+                key={index}
+                clickHandler={this.clickHandler}
+                /> 
+            )
+          })}
+          </div>
+        </div>
     </div>
   );
 }
