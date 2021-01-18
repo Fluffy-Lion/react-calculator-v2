@@ -1,11 +1,22 @@
+/* 
+      (ง'̀-'́)ง
+    (ง'̀-'́)ง
+  (ง'̀-'́)ง
+color theme 
+#871CA1
+#2C1679
+#0CCDDB
+#FFFFFF
+*/
+
 body {
-  background-color: rgb(255, 205, 205);
+  background-color:#ffffff;
   display: flex;
   justify-content: center;
 }
 
 .calcWrapper{
-  border: solid green 3px;
+  /* border: solid green 3px; */
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -14,11 +25,26 @@ body {
 
 }
 .calcScreen {
-  border: solid blue 3px;
+  /* border: solid blue 3px; */
+  background-color: #c37ed4;
   width: 100%;
   height: 10em;
 }
 .buttonWrapper{
-  border: solid red 3px;
+  /* border: solid red 3px; */
+  background-color: #0ccddb3f;
+  display : flex;
+  justify-content: center;
+  height: 40em;
+  flex-wrap: wrap;
+}
+.individButton {
+  /* border: solid lime 3px; */
+  color: #ffffff;
+  background-color: #0ccddb;
+  margin: 2em;
+  height: 4em;
+  width: 4em;
+  flex-wrap: wrap;
 }
 

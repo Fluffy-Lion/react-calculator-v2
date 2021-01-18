@@ -37,6 +37,7 @@ class App extends Component {
           {this.state.buttons.map((button, index) => {
             return ( 
                 <Button 
+                
                 value={button} 
                 key={index}
                 clickHandler={this.clickHandler}
@@ -52,7 +53,9 @@ class App extends Component {
 
 const Button = (props) => {
   return(
-      <button onClick={() => props.clickHandler(props.value)}>
+      <button 
+      className="individButton"
+      onClick={() => props.clickHandler(props.value)}>
         {props.value}
       </button>
   )
