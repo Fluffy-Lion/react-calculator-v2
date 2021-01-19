@@ -40,11 +40,24 @@ body {
 }
 .individButton {
   /* border: solid lime 3px; */
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, .5);
+  box-shadow: 0px 6px 0px #2b638f;
+  border-radius: 5px;
   color: #ffffff;
-  background-color: #0ccddb;
+  background-color: rgb(12, 205, 219);
+  text-decoration: none;
+  border: 1px solid #871CA1;
+  /* background-image: red; */
+  /* bottom, rgb(73, 132, 180) 0%, rgb(97, 155, 203) 100% */
+  background-image: linear-gradient(to bottom, rgb(12, 205, 219) 0%, rgb(73, 206, 216) 100%);
   margin: 2em;
   height: 4em;
   width: 4em;
   flex-wrap: wrap;
+}
+
+.individButton:hover {
+  /* background-image: green; */
+  background-image: linear-gradient(to bottom, rgb(35, 205, 218) 0%, rgb(121, 210, 216) 100%)
 }
 
