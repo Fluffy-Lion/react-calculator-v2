@@ -47,12 +47,12 @@ body {
   color: #ffffff;
   background-color: rgb(12, 205, 219);
   text-decoration: none;
-  border: 1px solid #871CA1;
+  border: 0.5px solid #871CA1;
   /* background-image: red; */
   /* bottom, rgb(73, 132, 180) 0%, rgb(97, 155, 203) 100% */
   background-image: linear-gradient(to bottom, rgb(12, 205, 219) 0%, rgb(73, 206, 216) 100%);
 
-  box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4);
+  box-shadow: 0px 3px 0px #871CA1, 0px 3px 15px rgba(0,0,0,.4);
   margin: 2em;
   height: 4em;
   width: 4em;
