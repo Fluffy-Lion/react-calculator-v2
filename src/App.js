@@ -13,7 +13,7 @@ class App extends Component {
     total: "",
     buttons: ["7", "8", "9", "c", "4", "5", "6", "*", "1", "2", "3", "/", "+", "0", "-", "="]
   }
-
+ 
   clickHandler = (value) => {
     if(value === "="){
     this.setState({total: evaluate(this.state.total) })
@@ -21,6 +21,9 @@ class App extends Component {
     this.setState({total: ""})
   }else {
     this.setState({total: this.state.total + value})
+    if(this.state.total.length > 7){
+      this.setState({total:""})
+    }
   }
   }
 
@@ -31,7 +34,7 @@ class App extends Component {
       <h1>react-calculator</h1>
         <div className="calcWrapper">
           <div className="calcScreen">
-            <h2>{this.state.total}</h2>
+            <h2 className="calcText">{this.state.total}</h2>
           </div>
           <div className="buttonWrapper">
           {this.state.buttons.map((button, index) => {
