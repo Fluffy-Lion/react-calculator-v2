@@ -21,9 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  
-  "homepage":"https://fluffy-lion.github.io/react-calculator-v2/",
-
+  "homepage": "https://fluffy-lion.github.io/react-calculator-v2/",
   "eslintConfig": {
     "extends": [
       "react-app",
